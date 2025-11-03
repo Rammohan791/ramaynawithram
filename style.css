@@ -6,11 +6,10 @@
 	width:1320px;
 	height:600px;
 display:flex;
-margin:center;
+margin:auto;
 background-color:#2b5d8c;}
 .box{
-max-width:1320px;
-min-width:200px;
+width:1320px;
 height:500px;
 border-left:2px solid red;
 border-right:2px solid #15ed27;
