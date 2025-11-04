@@ -3,14 +3,14 @@
 	margin:0px;
 }
 .fullpage{
-	width:1320px;
+	width:100%;
 	height:1000px;
 display:flex;
 margin:auto;
 background-color:#2b5d8c;}
 .buttonbox{
 	min-width:180px;
-	max-width:1200;
+	width:100%;
     height:800px;
     display:flext;
     margin:auto;
@@ -26,6 +26,7 @@ background-color:#2b5d8c;}
 	background-color:rgba(1, 153, 180);
 	border-radius:8px;
 	box-shadow:0px 4px 10px 5px purple;
+	box-shadow:inset 0px 4px 10px 5px white;
 	margin-bottom:40px;
 	margin-left:300px;
 	margin-right:300px;
