@@ -1,30 +1,35 @@
 .balkand{
 	margin:0px;
-	padding:0px;
-	width:1320px;
-	height:1200px;
+	
+	width:100%;
+	height:250%;
     display:flex;
-    margin:center;
-    background-color:#849701;}
+    margin:auto;
+    background-color:#849701;
+	background-image:url("https://www.vecteezy.com/vector-art/14007816-happy-dussehra-celebration-card-lord-rama-killed-ravana");}
 	
 .buttonbox{
-	width:300px;
-    height:800px;
+	width:1320px;
+    min-height:900px;
+    max-height:1600px;
+
+	background-color:#849701;
     display:flext;
-    margin:auto;
-	margin-top:50px;
+	background-color:red;
 }
 
 .button{
 	width:300px;
-	height:50px;
+	height:100px;
 	border:1px double purple;
 	background-color:rgba(1, 153, 180);
 	border-radius:8px;
 	box-shadow:0px 4px 10px 5px purple;
 	box-shadow:inset 0px 4px 10px 5px white;
-	margin-bottom:50px;	
-	font-size:20px;
+	margin-top:50px;
+	margin-left:50px;
+	margin-top:50px;	
+	font-size:25px;
 	font-weight:bold;
 	
 	cursor:pointer;

@@ -1,39 +1,90 @@
+.navbar{
+	width:1320px;
+	height:50px;
+	background-color:red;
+}
 .main{
 	padding:0px;
 	margin:0px;
 }
 .fullpage{
-	width:100%;
-	height:1000px;
-display:flex;
-margin:auto;
-background-color:#2b5d8c;}
+	margin:0px;
+	padding:0px;
+	max-width:1320px;
+	min-width:730px;
+	height:1900px;
+    display:flex;
+    margin:center;
+    background-color:#849701;
+	background-image:url('https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/59598/277381/1613540696201_Ek_sloki_Ramayan__52002.1687410275.jpg?c=2&imbypass=on');
+	background-size:cover;
+	background-repeat:no-repeat;}
 .buttonbox{
-	min-width:180px;
-	width:100%;
-    height:800px;
-    display:flext;
-    margin:auto;
+	width:1320px;
+    height:1900px;
 	alignment:center;
-	background-color:red;
-}
+background-image: url('https://i.pinimg.com/736x/2b/8d/ab/2b8dabe1b95c468c4e163a1e85c15391.jpg');
 
-.button{
+}
+.disclaimerbox{
+	margin:0px;
+	padding:0px;
+	max-width:1320px;
+	min-width:730px;
+	height:500px;
+	display:flex;
+	background-color:black;
+}
+  
+  
+.disclaimerbox1{
+	margin:0px;
+	padding:0px;
+	max-width:400px;
+	min-width:250px;
+	height:500px;
+		margin:auto;
+	alignment:center;
+	background-color:yellow;
+}
+.disclaimerbox2{
+	margin:0px;
+	padding:0px;
+	max-width:400px;
 	min-width:200px;
-	max-width:1000px;
-	height:50px;
-	border:1px double purple;
+	height:500px;
+	margin:auto;
+
 	background-color:rgba(1, 153, 180);
-	border-radius:8px;
-	box-shadow:0px 4px 10px 5px purple;
-	box-shadow:inset 0px 4px 10px 5px white;
-	margin-bottom:40px;
-	margin-left:300px;
-	margin-right:300px;
-	margin-top:50px;	
-	font-size:20px;
+}
+.button{
+	width:600px;
+	height:100px;
+	border:7px double #0bfc03;
+	background-color:rgba(1, 153, 180);
+	border-radius:12px;
+	box-shadow:5px 4px 10px 5px purple;
+	box-shadow:inset 0px 4px 10px 5px white;	
+	font-size:34px;
 	font-weight:bold;
-	
+	margin-top:20px;
+    margin-left:300px;
+    margin-bottom:50px;
+	cursor:pointer;
+}
+.button:hover{
+	width:600px;
+	height:100px;
+	border:7px double #0bfc03;
+	background-color:blue;
+	border-radius:15px;
+	box-shadow:5px 4px 10px 5px purple;
+	box-shadow:inset 0px 4px 10px 5px red;	
+	font-size:34px;
+	font-weight:bold;
+	margin-top:20px;
+    margin-left:300px;
+    margin-bottom:50px;
 	cursor:pointer;
 }
 
@@ -41,10 +92,10 @@ background-color:#2b5d8c;}
 	max-width:1320px;
 min-width:200px;
 height:500px;
-border-left:2px solid red;
-border-right:2px solid #15ed27;
-border-top:2px solid #ed1548;
-border-bottom:2px solid red;
+border-left:7px solid red;
+border-right:7px solid #15ed27;
+border-top:7px solid #ed1548;
+border-bottom:7px solid red;
 display:flex;
 background-color:red;}
 	
@@ -55,17 +106,27 @@ border-top:2px solid #ed1548;
 border-bottom:2px solid yellow;
 display:flex;
 margin:auto;
-background-color:red;}
+background-color:red;
+background-image:url('https://www.kidsgen.com/quiz/images/the-ramayana-quiz.jpg');
+background-size:cover;
+}
 
 .quizesbox{
-	width:300px;
-	height:400px;
-border-left:2px solid red;
-border-right:2px solid #15ed27;
-border-top:2px solid #ed1548;
-border-bottom:2px solid yellow;
+	width:800px;
+	height:600px;
+	font-weight:35px;
+	font-size:30px;
+border-left:7px solid red;
+border-right:7px solid #15ed27;
+border-top:8px solid #ed1548;
+border-bottom:8px solid yellow;
+	box-shadow:20px 20px 10px 5px white;
+	box-shadow:inset 0px 4px 20px 5px blue;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6HRdIAVOlIsMyyje0MAxeeNP-VpgJGLEG5A&s');
+background-size:cover;
+color:white;
 margin:auto;
-background-color:blue;}
+background-color:green;}
 .heading{
 	width:300px;
 	height:50px;
@@ -74,7 +135,16 @@ background-color:blue;}
 height:50px;
 border:2px solid black;}
 .nextbtn{
-	display:flex;
-	margin-left:center;
 	width:300px;
-    height:30px;}
+	height:60px;
+	border:1px double red;
+	background-color:#2431bf;
+	border-radius:8px;
+	box-shadow:20px 20px 10px 5px purple;
+	box-shadow:inset 0px 4px 10px 5px white;
+    margin:auto;
+    display:flex;	
+	font-size:20px;
+	font-weight:bold;
+	color:#24bf46;
+	cursor:pointer;}

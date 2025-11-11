@@ -1,29 +1,35 @@
 .main{
-	margin:0px;
-	padding:0px;
-	width:1320px;
-	height:600px;
+	margin:30px;
+	padding:20px;
+	max-width:1320px;
+	min-width:700px;
+	height:80%;
     display:flex;
-    margin:center;
-    background-color:#849701;}
+    margin:auto;
+    background-color:#849701;
+
+	background-size:cover;
+	background-repeat:no-repeat;}
 	
 .buttonbox{
-	width:300px;
-    height:500px;
-    display:flext;
+	width:1320px;
+    height:700px;
+	background-color:yellow;
     margin:auto;
 }
 
 .button{
-	width:300px;
-	height:50px;
-	border:1px double purple;
-	background-color:rgba(1, 153, 180);
-	border-radius:8px;
-	box-shadow:0px 4px 10px 5px purple;
-	box-shadow:inset 0px 4px 10px 5px white;
+	width:400px;
+	height:70px;
+	border:10px grid purple;
+	background-color:green;
+	border-radius:10px;
+	box-shadow:3px 4px 10px 5px purple;inset 0px 4px 10px 5px black;
 	margin-bottom:50px;	
-	font-size:20px;
+	margin-top:20px;
+	margin-right:50px;
+	margin-left:50px;
+	font-size:30px;
 	font-weight:bold;
 	
 	cursor:pointer;
