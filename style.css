@@ -1,29 +1,10 @@
-.navbar{
-	width:1320px;
-	height:50px;
-	background-color:red;
-}
-.main{
-	padding:0px;
-	margin:0px;
-}
-.fullpage{
-	margin:0px;
-	padding:0px;
-	max-width:1320px;
-	min-width:730px;
-	height:1900px;
-    display:flex;
-    margin:center;
-    background-color:#849701;
-	background-image:url('https://cdn11.bigcommerce.com/s-x49po/images/stencil/1500x1500/products/59598/277381/1613540696201_Ek_sloki_Ramayan__52002.1687410275.jpg?c=2&imbypass=on');
-	background-size:cover;
-	background-repeat:no-repeat;}
+
 .buttonbox{
-	width:1320px;
-    height:1900px;
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
 	alignment:center;
-background-image: url('https://i.pinimg.com/736x/2b/8d/ab/2b8dabe1b95c468c4e163a1e85c15391.jpg');
+	background-color:#90EE90;
 
 }
 .disclaimerbox{
@@ -45,7 +26,7 @@ background-image: url('https://i.pinimg.com/736x/2b/8d/ab/2b8dabe1b95c468c4e163a
 	height:500px;
 		margin:auto;
 	alignment:center;
-	background-color:yellow;
+	background-color: #dcdc3d;
 }
 .disclaimerbox2{
 	margin:0px;
@@ -55,35 +36,34 @@ background-image: url('https://i.pinimg.com/736x/2b/8d/ab/2b8dabe1b95c468c4e163a
 	height:500px;
 	margin:auto;
 
-	background-color:rgba(1, 153, 180);
+	background-color:#86dcc5;
 }
 .button{
-	width:600px;
-	height:100px;
+	width:400px;
+	height:150px;
 	border:7px double #0bfc03;
-	background-color:rgba(1, 153, 180);
-	border-radius:12px;
-	box-shadow:5px 4px 10px 5px purple;
-	box-shadow:inset 0px 4px 10px 5px white;	
+	background-color:#FF9933;
+	border-radius:17px;
+	box-shadow:inset 0px 4px 10px 5px  #ADD8E6;	
 	font-size:34px;
 	font-weight:bold;
 	margin-top:20px;
-    margin-left:300px;
+    margin-left:200px;
     margin-bottom:50px;
 	cursor:pointer;
 }
 .button:hover{
-	width:600px;
-	height:100px;
+	width:400px;
+	height:150px;
 	border:7px double #0bfc03;
-	background-color:blue;
+	background-color:#ADD8E6;
 	border-radius:15px;
-	box-shadow:5px 4px 10px 5px purple;
-	box-shadow:inset 0px 4px 10px 5px red;	
+	box-shadow:5px 4px 10px 5px red;
+	
 	font-size:34px;
 	font-weight:bold;
 	margin-top:20px;
-    margin-left:300px;
+    margin-left:200px;
     margin-bottom:50px;
 	cursor:pointer;
 }

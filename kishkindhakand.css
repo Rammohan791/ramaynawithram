@@ -1,5 +1,4 @@
 
-	
 .buttonbox{
 	width:100%;
     display:flex;
@@ -11,11 +10,27 @@
 .button{
 	width:420px;
 	height:120px;
-	border:1px double purple;
+	border:6px double purple;
 	background-color:rgba(1, 153, 180);
 	border-radius:8px;
 	box-shadow:0px 4px 10px 5px purple;
 	box-shadow:inset 0px 4px 10px 5px white;
+	margin-bottom:50px;	
+		margin-top:50px;
+		margin-left:250px;
+	font-size:30px;
+	font-weight:bold;
+	
+	cursor:pointer;
+}
+
+.button:hover{
+	width:420px;
+	height:120px;
+	border:6px double purple;
+	background-color:rgba(1, 153, 180);
+	border-radius:13px;
+	box-shadow:0px 4px 10px 5px blue;
 	margin-bottom:50px;	
 		margin-top:50px;
 		margin-left:250px;

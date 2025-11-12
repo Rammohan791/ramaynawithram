@@ -1,21 +1,36 @@
 
-	
 .buttonbox{
 	width:100%;
 	background-color:#849701;
 	background-color:red;
-
+}
 .button{
 	width:500px;
-	height:100px;
+	height:120px;
 	border:4px double red;
-	background-color:#eb13b1;
+	background-color:#87CEEB;
 	border-radius:10px;
 	box-shadow:6px 4px 10px 5px purple;
 	box-shadow:inset 0px 4px 10px 5px blue;
 	margin-bottom:30px;	
 		margin-top:50px;
-			margin-left:50px;
+			margin-left:150px;
+	font-size:35px;
+	font-weight:bold;
+	
+	cursor:pointer;
+}
+
+.button:hover{
+	width:500px;
+	height:120px;
+	border:4px double black;
+	background-color:blue;
+	border-radius:10px;
+	box-shadow:6px 4px 10px 5px purple;
+	margin-bottom:30px;	
+		margin-top:50px;
+			margin-left:150px;
 	font-size:35px;
 	font-weight:bold;
 	

@@ -1,14 +1,24 @@
 .navbar{  width:100%;
           height:50px;
-background-color:red;
+background-color:blue;
 display:flex;}
 
-.navbox{width:160px;
+.navbox{width:180px;
         height:46px;
 	    border-radius:8px; 
 		margin-left:15px;
 		border:2px double black;
-			box-shadow:inset 0px 4px 10px 5px pink;
+			box-shadow:inset 0px 4px 10px 5px  pink;
+       }
+	   
+.navbox:hover{width:180px;
+        height:46px;
+	    border-radius:8px; 
+		margin-left:15px;
+		background-color:#CDDC39;
+		border:2px double black;
+			box-shadow:inset 0px 4px 10px 5px #673AB7
+;
        }
 
 .btndiv{
