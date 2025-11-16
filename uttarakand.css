@@ -4,6 +4,14 @@
      display:flex;
 	 flex-wrap:wrap;
 	background-color:red;
+	animation-name:btn;
+	position:relative;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+}
+@keyframes btn{
+	from{background-color:red;}
+	to{background-color:rgba(1, 153, 180);}
 }
 
 .button{

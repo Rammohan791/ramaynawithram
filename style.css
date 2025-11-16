@@ -1,17 +1,83 @@
-
 .buttonbox{
 	width:100%;
 	display:flex;
 	flex-wrap:wrap;
-	alignment:center;
 	background-color:#90EE90;
+	box-shadow:inset 0px 0px 30px 28px black;
+		animation-name:disp;
+		animation-duration:5s;
+		position:relative;
+		animation-iteration-count:infinite;
 
 }
+@keyframes disp{
+	from{background-color:#90EE90;}
+	to{background-color:pink;}
+}
+
+.upperdiv{
+	margin:0px;
+	width:100%;
+    text-transform:uppercase;
+	letter-spacing:13px;
+	word-spacing:10px;
+	text-decoration:underline;
+	text-shadow:0px 0px 0px blue,
+	            1px 1px 0px blue,
+				2px 2px 0px yellow;
+	display:flex;
+	flex-wrap:wrap;
+    background-color:#ADD8E6;
+    font-size:27px;}
+
+.f{
+	margin:4px;
+	width:700px;
+	display:flex;
+	flex-wrap:wrap;
+	background-color:green;
+	letter-spacing:0px;
+	word-spacing:0px;
+	font-size:22px;
+	box-shadow:inset 1px 0px 5px 3px white;
+	text-shadow:0px 0px 0px white,
+	            1px 1px 0px black,
+				2px 2px 0px yellow;
+text-transform:uppercase;
+font-weight:bolder;
+color:white;
+animation-name:pa;
+animation-duration:20s;
+position:relative;
+animation-iteration-count:infinite;
+}
+@keyframes pa{
+0%{left:0px;top:0px;}
+100%{left:45%;top:0px;background-color:purple;}
+}
+
+
+
+.paragraph{
+		animation-name:para;
+		animation-duration:20s;
+		position:relative;
+		animation-iteration-count:infinite;
+		color:purple;
+		font-size:20px;
+
+}
+@keyframes para{
+	from{color:black;}
+	to{color:red;}
+}
+
+
+
 .disclaimerbox{
 	margin:0px;
 	padding:0px;
-	max-width:1320px;
-	min-width:730px;
+    width:100%;
 	height:500px;
 	display:flex;
 	background-color:black;
@@ -24,9 +90,9 @@
 	max-width:400px;
 	min-width:250px;
 	height:500px;
-		margin:auto;
-	alignment:center;
+	margin:auto;
 	background-color: #dcdc3d;
+	box-shadow: 3px 10px 12px 4px pink;
 }
 .disclaimerbox2{
 	margin:0px;
@@ -35,16 +101,21 @@
 	min-width:200px;
 	height:500px;
 	margin:auto;
-
+    box-shadow: 2px 10px 20px 4px blue;
 	background-color:#86dcc5;
 }
 .button{
-	width:400px;
+	width:430px;
 	height:150px;
 	border:7px double #0bfc03;
 	background-color:#FF9933;
 	border-radius:17px;
-	box-shadow:inset 0px 4px 10px 5px  #ADD8E6;	
+	box-shadow:inset 0px 4px 10px 5px  #ADD8E6;
+	transform:rotateX(30deg) rotateY(30);
+	text-shadow:0px 0px 0px white,
+	            1px 1px 0px white,
+				2px 2px 0px white,
+				3px 3px 0px black;	
 	font-size:34px;
 	font-weight:bold;
 	margin-top:20px;
@@ -53,7 +124,7 @@
 	cursor:pointer;
 }
 .button:hover{
-	width:400px;
+	width:430px;
 	height:150px;
 	border:7px double #0bfc03;
 	background-color:#ADD8E6;
@@ -66,7 +137,16 @@
     margin-left:200px;
     margin-bottom:50px;
 	cursor:pointer;
+	
+	animation-name:btn;
+	animation-duration:2s;
+	position:relative;
+	animation-iteration-count:infinite;
 }
+@keyframes btn{
+	from{background-color:#ADD8E6;}
+	to{background-color:#FF9933;}
+	}
 
 .quizzbtn{
 	max-width:1320px;

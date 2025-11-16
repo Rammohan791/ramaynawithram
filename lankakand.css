@@ -6,6 +6,15 @@
     margin:auto;
 	margin-top:50px;
 	background-color:red;
+     		animation-name:disp;
+		animation-duration:5s;
+		position:relative;
+		animation-iteration-count:infinite;
+
+}
+@keyframes disp{
+	from{background-color:#90EE90;}
+	to{background-color:pink;}
 }
 
 .button{
@@ -16,6 +25,9 @@
 	border-radius:12px;
 	box-shadow:0px 4px 10px 5px purple;
 	box-shadow:inset 0px 4px 10px 5px white;
+	text-shadow:0px 0px 0px black,
+	            0px 1px 0px black,
+				0px 2px 0px white;
 	margin-bottom:30px;
 	margin-top:30px;
 	margin-left:150px;

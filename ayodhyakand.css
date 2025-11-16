@@ -4,6 +4,14 @@
    display:flex;
    flex-wrap:wrap;
 	background-color:red;
+     		animation-name:disp;
+		animation-duration:5s;
+		position:relative;
+		animation-iteration-count:infinite;
+}
+@keyframes disp{
+	from{background-color:#90EE90;}
+	to{background-color:pink;}
 }
 
 .button{

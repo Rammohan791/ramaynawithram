@@ -4,7 +4,16 @@
 	display:flex;
 	flex-wrap:wrap;
 	background-color:#849701;
+	background-image:url(""C:\Users\rammo\OneDrive\HTML\project byHTML,CSS,js\IMG-20251116-WA0025.jpg"");
+     		animation-name:disp;
+		animation-duration:5s;
+		position:relative;
+		animation-iteration-count:infinite;
 
+}
+@keyframes disp{
+	from{background-color:#90EE90;}
+	to{background-color:pink;}
 }
 
 .button{
