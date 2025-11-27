@@ -1,15 +1,58 @@
-.fullpage{
+.mainbox{
 	width:100%;
-	margin:auto;
 	display:flex;
 	flex-wrap:wrap;
-	border:4px double red;
+	margin:auto;
+	font-size:30;
+background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 }
+.imagesbox{
+		width:100%;
+		height:500px;
+	display:flex;
+	flex-wrap:wrap;
+	margin:auto;
+	font-size:60;
+	color:red;
+	align-items:center;
+	text-shadow:0px 0px 0px blue,
+	            1px 1px 4px red,
+				2px 2px 4px yellow,
+				4px 4px 0px green;
+	justify-content:center;
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+letter-spacing:5px;
+animation-name:im;
+animation-duration:120s;
+animation-iteration-count:infinite;
+  }
+  @keyframes im{
+	   0%{width:100%;font-size:40px;color:yellow;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim9.jpg");background-size:cover;background-position:center;}
+	  14%{width:100%;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg"); background-size:cover;background-position:center;}
+	  20%{width:100%; color:purple;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim1.jpg");background-size:cover;background-position:center;}
+	  35%{width:90%;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim2.jpg");background-size:cover;background-position:center;}
+	  45%{width:100%;font-size:60px;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim3.jpg");background-size:cover;background-position:center;}
+	  55%{width:70%;font-size:70px;color:blue;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim4.jpg");background-size:cover;}
+	  65%{width:100%; background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim5.jpg");background-size:cover;background-position:center;}
+	  75%{width:80%;color:yellow;font-size:80px;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim6.jpg");background-size:cover;background-position:center;}
+	  85%{width:100%;color:green;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim7.jpg");background-size:cover;background-position:center;}
+	  95%{width:90%;color:red;font-size:90px;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim8.jpg");background-size:cover;background-position:center;}
+	  100%{width:100%;color:red;font-size:100px;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim9.jpg");background-size:cover;background-position:center;}
+  }
 .buttonbox{
-	width:86%;
+	width:100%;
 		margin:auto;
 	display:flex;
 	flex-wrap:wrap;
+	background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 	background-color:#90EE90;
 	box-shadow:inset 0px 0px 30px 28px black;
 		animation-name:disp;
@@ -24,11 +67,14 @@
 }
 
 .upperdiv{
-	margin:0px;
-	width:100%;
+		width:100%;
     text-transform:uppercase;
 	letter-spacing:13px;
 	word-spacing:10px;
+	background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 	text-decoration:underline;
 	text-shadow:0px 0px 0px blue,
 	            1px 1px 0px blue,
@@ -92,9 +138,9 @@ animation-iteration-count:infinite;
 .disclaimerbox1{
 	margin:0px;
 	padding:0px;
-	max-width:400px;
-	min-width:250px;
+    width:100%;
 	height:100%;
+	
 	margin:auto;
 	background-color: #dcdc3d;
 	box-shadow: 3px 10px 12px 4px pink;
@@ -102,29 +148,29 @@ animation-iteration-count:infinite;
 .disclaimerbox2{
 	margin:0px;
 	padding:0px;
-	max-width:400px;
-	min-width:200px;
+	width:100%;
 	height:100%;
 	margin:auto;
     box-shadow: 2px 10px 20px 4px blue;
 	background-color:#86dcc5;
 }
 .button{
-	width:230px;
-	height:200px;
+	width:240px;
+	height:210px;
 
 	background-color:#FF9933;
-	border-radius:17px;
-	box-shadow:0px 4px 10px 5px  #ADD8E6;
+	border-radius:25%;
+	box-shadow:0px 4px 10px 5px  black;
 	transform:rotateX(30deg) rotateY(30);
 	text-shadow:0px 0px 0px white,
 	            1px 1px 0px white,
 				2px 2px 0px white,
 				3px 3px 0px black;	
-	font-size:34px;
+	font-size:25px;
 	font-weight:bold;
 margin:auto;
-margin-bottom:20px;
+margin-bottom:30px;
+margin-left:30px;
 	cursor:pointer;
 }
 #button1{
@@ -166,17 +212,18 @@ background-size:cover;
 background-position:center;
 background-repeat:no-repeat;}
 .button:hover{
-	width:230px;
-	height:200px;
+	width:240px;
+	height:210px;
 	border:7px double #0bfc03;
 	background-color:#ADD8E6;
-	border-radius:15px;
-	box-shadow:5px 4px 10px 5px red;
+	border-radius:20px;
+	box-shadow:5px 6px 10px 5px red;
 	
-	font-size:34px;
+	font-size:25px;
 	font-weight:bold;
 	margin:auto;
-    margin-bottom:20px;
+    margin-bottom:30px;
+	margin-left:30px;
 	cursor:pointer;
 	
 	animation-name:btn;
