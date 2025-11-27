@@ -46,6 +46,14 @@ let b=document.getElementById("aboutramayana");
 function learnabout(){
 window.location.href="aboutramayana.html";}
 
+
+function motivation(){
+window.location.href="motivationchopaihindi.html";}
+
+
+function nextquizz(){
+window.location.href="index.html";}
+
 let p=document.getElementById("b1");
 function p1(){
 window.location.href="birthofram.html";}
@@ -243,5 +251,6 @@ window.location.href="thelateryearend.html";}
 function fun49(){
 window.location.href="motivationchopaihindi.html";}
 
-function fun50(){
-window.location.href="motivationchopaienlish.html";}
+function fun51(){
+window.location.href="motivationchopaienglish.html";}
+

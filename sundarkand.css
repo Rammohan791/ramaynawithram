@@ -4,6 +4,14 @@
     display:flext;
 	flex-wrap:wrap;
 	background-color:yellow;
+	animation-name:btn;
+	position:relative;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+}
+@keyframes btn{
+	from{background-color:yellow}
+	to{background-color:rgba(1, 153, 180);}
 }
 
 .button{
@@ -14,6 +22,11 @@
 	border-radius:8px;
 	box-shadow:0px 4px 10px 5px purple;
 	box-shadow:inset 0px 4px 10px 5px white;
+		text-shadow:0px 0px 0px black,
+	            1px 1px 0px black,
+				2px 2px 0px white,
+				3px 3px 0px black,
+				4px 4px 2px yellow;
 	margin-top:50px;
 	margin-left:150px;	
 	font-size:25px;
