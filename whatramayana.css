@@ -11,9 +11,6 @@ display:flex;}
 			box-shadow:inset 0px 4px 10px 5px pink;
        }
 
-
-
-
 .btndiv{
     display:flext;
     margin-left:13px;
@@ -58,4 +55,12 @@ display:flex;}
     margin-top:13px;
 	alignment:center;
 	background-color:#23fh;
+	animation-name:btn;
+	position:relative;
+	animation-duration:10s;
+	animation-iteration-count:infinite;
+}
+@keyframes btn{
+	from{background-color:#3F51B5;}
+	to{background-color:rgba(1, 153, 180);}
 }

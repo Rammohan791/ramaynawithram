@@ -1,10 +1,14 @@
 
 .buttonbox{
 	width:100%;
-    display:flex;
+	display:flex;
 	flex-wrap:wrap;
-    margin:auto;
-	margin-top:50px;
+	margin:auto;
+	font-size:30;
+background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 	background-color:red;
      		animation-name:disp;
 		animation-duration:5s;
@@ -28,9 +32,9 @@
 	text-shadow:0px 0px 0px black,
 	            0px 1px 0px black,
 				0px 2px 0px white;
+	margin:auto;
 	margin-bottom:30px;
-	margin-top:30px;
-	margin-left:150px;
+
 	font-size:30px;
 	font-weight:bold;
 	
@@ -43,9 +47,9 @@
 	background-color:rgba(1, 153, 180);
 	border-radius:12px;
 	box-shadow:0px 4px 10px 5px purple;
+
+	margin:auto;
 	margin-bottom:30px;
-	margin-top:30px;
-	margin-left:150px;
 	font-size:30px;
 	font-weight:bold;
 	
