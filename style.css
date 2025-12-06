@@ -1,16 +1,16 @@
 .mainbox{
-	width:85%;
+	width:100%;
 	display:flex;
 	flex-wrap:wrap;
 	margin:auto;
 	font-size:30;
-background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
-background-size:cover;
+background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim1.jpg?raw=true");
+background-size:100% 100%;
 background-position:center;
 background-repeat:no-repeat;
 }
 .imagesbox{
-		width:85%;
+		width:100%;
 		height:500px;
 	display:flex;
 	flex-wrap:wrap;
@@ -32,25 +32,25 @@ animation-duration:120s;
 animation-iteration-count:infinite;
   }
   @keyframes im{
-	   0%{width:85%;font-size:40px;color:yellow;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim9.jpg");background-size:cover;background-position:center;}
-	  14%{width:85%;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg"); background-size:cover;background-position:center;}
-	  20%{width:85%; color:purple;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim1.jpg");background-size:cover;background-position:center;}
-	  35%{width:75%;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim2.jpg");background-size:cover;background-position:center;}
-	  45%{width:85%;font-size:60px;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim3.jpg");background-size:cover;background-position:center;}
-	  55%{width:75%;font-size:70px;color:blue;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim4.jpg");background-size:cover;}
-	  65%{width:85%; background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim5.jpg");background-size:cover;background-position:center;}
-	  75%{width:70%;color:yellow;font-size:80px;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim6.jpg");background-size:cover;background-position:center;}
-	  85%{width:85%;color:green;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim7.jpg");background-size:cover;background-position:center;}
-	  95%{width:70%;color:red;font-size:90px;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim8.jpg");background-size:cover;background-position:center;}
-	  100%{width:85%;color:red;font-size:100px;background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\changeim9.jpg");background-size:cover;background-position:center;}
+	   0%{width:70%;font-size:40px;color:yellow;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim1.jpg?raw=true");background-size:100% 100%;background-position:center;}
+	  14%{width:100%;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim2.jpg?raw=true"); background-size:100% 100%;background-position:center;}
+	  20%{width:80%; color:red;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim3.jpg?raw=true");background-size:100% 100%;background-position:center;}
+	  35%{width:100%;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim4.jpg?raw=true");background-size:100% 100%;background-position:center;}
+	  45%{width:85%;font-size:60px;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim5.jpg?raw=true");background-size:100% 100%;background-position:center;}
+	  55%{width:100%;font-size:70px;color:red;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim6.jpg?raw=true");background-size:100% 100%;}
+	  65%{width:85%; background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim7.jpg?raw=true");background-size:100% 100%;background-position:center;}
+	  75%{width:100%;color:yellow;font-size:80px;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim8.jpg?raw=true");background-size:100% 100%;background-position:center;}
+	  85%{width:85%;color:green;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim1.jpg?raw=true");background-size:100% 100%;background-position:center;}
+	  95%{width:100%;color:red;font-size:90px;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim9.jpg?raw=true");background-size:100% 100%;background-position:center;}
+	  100%{width:85%;color:red;font-size:100px;background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim9.jpg?raw=true");background-size:100% 100%;background-position:center;}
   }
 .buttonbox{
-	width:85%;
+	width:100%;
 		margin:auto;
 	display:flex;
 	flex-wrap:wrap;
-	background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
-background-size:cover;
+	background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/buttonimage.jpg?raw=true");
+background-size:100% 100%;
 background-position:center;
 background-repeat:no-repeat;
 	background-color:#90EE90;
@@ -67,11 +67,11 @@ background-repeat:no-repeat;
 }
 
 .upperdiv{
-		width:85%;
+		width:100%;
     text-transform:uppercase;
 	letter-spacing:13px;
 	word-spacing:10px;
-	background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
+	background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/changeim9.jpg?raw=true");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
@@ -155,81 +155,44 @@ animation-iteration-count:infinite;
 	background-color:#86dcc5;
 }
 .button{
-	width:240px;
-	height:210px;
+	width:203px;
+	height:200px;
+	background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/main/buttonimage2.jpg?raw=true");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+font-size:28px;
 
 	background-color:#FF9933;
-	border-radius:25%;
+	border-radius:45%;
 	box-shadow:0px 4px 10px 5px  black;
 	transform:rotateX(30deg) rotateY(30);
 	text-shadow:0px 0px 0px white,
 	            1px 1px 0px white,
 				2px 2px 0px white,
 				3px 3px 0px black;	
-	background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/e697c5de3b9231cc878f54357f1c11f9a4d42a3c/buttonimage.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-	font-size:25px;
+	font-size:20px;
 	font-weight:bold;
 margin:auto;
+margin-top:15px;
 margin-bottom:30px;
 margin-left:30px;
 	cursor:pointer;
 }
-#button1{
-background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/e697c5de3b9231cc878f54357f1c11f9a4d42a3c/buttonimage.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;}
-#button2{
-background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\learnabout ramayan.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-font-size:23px;}
-#button3{
-background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-font-size:28px;}
-#button4{
-background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\quizzes.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;}
-#button5{
-background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\indian culture.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;}
-#button6{
-background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\princepleoflife.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
-font-size:23px;}
-#button7{
-background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\what is ramayan.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;}
+
 .button:hover{
-	width:240px;
-	height:210px;
+	width:205px;
+	height:203px;
 	border:7px double #0bfc03;
 	background-color:#ADD8E6;
-	border-radius:20px;
+	border-radius:45%;
 	box-shadow:5px 6px 10px 5px red;
-	background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/e697c5de3b9231cc878f54357f1c11f9a4d42a3c/buttonimage.jpg");
-background-size:cover;
-background-position:center;
-background-repeat:no-repeat;
+	
 	font-size:25px;
 	font-weight:bold;
 	margin:auto;
     margin-bottom:30px;
+	margin-top:15px;
 	margin-left:30px;
 	cursor:pointer;
 	
@@ -277,7 +240,7 @@ border-top:8px solid #ed1548;
 border-bottom:8px solid yellow;
 	box-shadow:20px 20px 10px 5px white;
 	box-shadow:inset 0px 4px 20px 5px blue;
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6HRdIAVOlIsMyyje0MAxeeNP-VpgJGLEG5A&s');
+background-image: url('https://github.com/Rammohan791/ramaynawithram/blob/main/buttonimage.jpg?raw=true');
 background-size:cover;
 color:white;
 margin:auto;
@@ -302,5 +265,4 @@ border:2px solid black;}
 	font-size:20px;
 	font-weight:bold;
 	color:#24bf46;
-
 	cursor:pointer;}
