@@ -166,6 +166,10 @@ animation-iteration-count:infinite;
 	            1px 1px 0px white,
 				2px 2px 0px white,
 				3px 3px 0px black;	
+	background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/e697c5de3b9231cc878f54357f1c11f9a4d42a3c/buttonimage.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 	font-size:25px;
 	font-weight:bold;
 margin:auto;
@@ -174,7 +178,7 @@ margin-left:30px;
 	cursor:pointer;
 }
 #button1{
-background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\what is ramayan.jpg");
+background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/e697c5de3b9231cc878f54357f1c11f9a4d42a3c/buttonimage.jpg");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;}
@@ -218,7 +222,10 @@ background-repeat:no-repeat;}
 	background-color:#ADD8E6;
 	border-radius:20px;
 	box-shadow:5px 6px 10px 5px red;
-	
+	background-image:url("https://github.com/Rammohan791/ramaynawithram/blob/e697c5de3b9231cc878f54357f1c11f9a4d42a3c/buttonimage.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 	font-size:25px;
 	font-weight:bold;
 	margin:auto;
@@ -295,4 +302,5 @@ border:2px solid black;}
 	font-size:20px;
 	font-weight:bold;
 	color:#24bf46;
+
 	cursor:pointer;}
