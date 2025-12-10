@@ -33,7 +33,7 @@
     margin-left:13px;
     margin-top:13px;
 	background-color:rad;
-	background-image: url("balkand.jpg");
+	background-image: url('https://i.pinimg.com/736x/2b/8d/ab/2b8dabe1b95c468c4e163a1e85c15391.jpg');
 }
 .btn{
 	width:300px;
@@ -101,7 +101,6 @@ font-size:26px;
 	from{background-color:#4CAF50;}
 	to{background-color:#CDDC39;}
 }
-
 
 
 

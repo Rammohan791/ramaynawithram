@@ -18,7 +18,7 @@
 
 .button{
 	width:420px;
-	height:120px;
+	height:124px;
 	border:6px double purple;
 	background-color:rgba(1, 153, 180);
 	border-radius:8px;
@@ -26,9 +26,8 @@
 	box-shadow:inset 0px 4px 10px 5px white;
 	text-shadow:0px 0px 0px black,
 	            2px 1px 0px white;
-	margin-bottom:50px;	
-		margin-top:50px;
-		margin-left:300px;
+	margin:auto;
+	margin-bottom:30px;
 	font-size:30px;
 	font-weight:bold;
 	
@@ -37,14 +36,13 @@
 
 .button:hover{
 	width:420px;
-	height:120px;
+	height:124px;
 	border:6px double purple;
 	background-color:rgba(1, 153, 180);
 	border-radius:13px;
 	box-shadow:0px 4px 10px 5px blue;
-	margin-bottom:50px;	
-		margin-top:50px;
-		margin-left:300px;
+	margin:auto;
+	margin-bottom:30px;
 	font-size:30px;
 	font-weight:bold;
 	

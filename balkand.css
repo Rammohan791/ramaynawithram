@@ -1,8 +1,15 @@
 
 .buttonbox{
 	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	margin:auto;
+	font-size:30;
+background-image:url("C:\\Users\\rammo\\OneDrive\\HTML\\project byHTML,CSS,js\\kand.jpg");
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 	background-color:#849701;
-	background-color:red;
      		animation-name:disp;
 		animation-duration:5s;
 		position:relative;
@@ -21,9 +28,8 @@
 	border-radius:10px;
 	box-shadow:6px 4px 10px 5px purple;
 	box-shadow:inset 0px 4px 10px 5px blue;
-	margin-bottom:30px;	
-		margin-top:50px;
-			margin-left:150px;
+	margin:auto;	
+	margin-bottom:25px;
 	font-size:35px;
 	font-weight:bold;
 	
@@ -37,9 +43,8 @@
 	background-color:blue;
 	border-radius:10px;
 	box-shadow:6px 4px 10px 5px purple;
-	margin-bottom:30px;	
-		margin-top:50px;
-			margin-left:150px;
+	margin:auto;	
+	margin-bottom:25px;
 	font-size:35px;
 	font-weight:bold;
 	
