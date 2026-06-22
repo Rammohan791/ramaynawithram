@@ -277,7 +277,8 @@ border:2px solid black;}
 
 	.godspage{
 		height:150px;
-		width:200px;
+		width:140px;
+		margin:auto;
 		background-color: #0fd3e1;
 		border: 3px solid rgb(15, 166, 186);
 		display:flex;
