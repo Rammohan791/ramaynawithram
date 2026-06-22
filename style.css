@@ -268,3 +268,60 @@ border:2px solid black;}
 	font-weight:bold;
 	color:#24bf46;
 	cursor:pointer;}
+.main11{
+		width:100%;
+		height:100%;
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+	.godspage{
+		height:150px;
+		width:200px;
+		background-color: #0fd3e1;
+		border: 3px solid rgb(15, 166, 186);
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+		.godspage img{
+	      width:100%;
+		  height: 100%;
+		  display: cover;
+	}
+.goddiv1 {
+    width: 100%;             
+    height: 100%; 
+	 display: flex;
+	flex-wrap: wrap;                    
+    margin:auto;              
+    flex-direction: row;
+    gap: 8px;               
+    overflow-y: auto;        
+    
+   
+    background-color: radial-gradient(circle at top left, #FFD700 0%, #FFA500 45%, #FF9933 100%);
+
+    border: 1px solid #0f5abb;
+    border-radius: 12px;
+}
+.item-box {
+    width: 200px;
+    display: inline-flex;  
+	align-items: center;
+	margin: auto;
+	margin-top: 10px;
+	padding: auto;
+	align-items: center;
+    gap: 10px;         
+    background: linear-gradient(135deg, #138808 0%, #FFD700 50%, #138808 100%);
+	box-shadow: 
+    0 10px 20px rgba(162, 201, 5, 0.2), 
+    0 6px 6px rgba(47, 214, 15, 0.35), 
+    inset 0 -4px 10px rgba(218, 204, 0, 0.4), 
+    inset 0 4px 10px rgba(255, 255, 255, 0.5);
+    padding: 8px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
