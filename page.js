@@ -139,7 +139,7 @@ window.location.href="ravalkaagman.html";}
 function fun16(){
 window.location.href="jatayu.html";}
 
-<!--kishkindhakand-->
+// <!--kishkindhakand-->
 
 
 function fun17(){
@@ -160,7 +160,7 @@ window.location.href="sugrivacoronation.html";}
 function fun22(){
 window.location.href="searchforsita.html";}
 
-<!--kishkindhakand-->
+// <!--kishkindhakand-->
 
 function fun23(){
 window.location.href="hanumanjisamundra.html";}
@@ -247,10 +247,14 @@ window.location.href="ashwamedhayagya.html";}
 function fun48(){
 window.location.href="thelateryearend.html";}
 
-<!--motivation hindi and english-->
+// <!--motivation hindi and english-->
 function fun49(){
 window.location.href="motivationchopaihindi.html";}
 
 function fun51(){
 window.location.href="motivationchopaienglish.html";}
+
+function fun50(){
+window.location.href="multigod.html";}
+
 
